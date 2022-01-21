@@ -19,7 +19,7 @@ const Sample = ({ loadingPost, loadingUsers, post, users }) => {
           <ul>
             {users.map((user) => (
               <li key={user.id}>
-                {users.username} ({user.email})
+                {user.username} ({user.email})
               </li>
             ))}
           </ul>
